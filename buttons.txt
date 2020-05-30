@@ -1,0 +1,5 @@
+300 200 button_about.bmp
+300 300 button_game.bmp
+300 400 button_exit.bmp
+600 550 button_back.bmp
+300 550 button_next.bmp

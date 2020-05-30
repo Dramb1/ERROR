@@ -1,0 +1,53 @@
+#
+!main.cpp Windows.h graphics.h keys_n_colors.h limits.h math.h stdlib.h #<#>
+Button _type_ #<main.cpp>
+Chip _type_ #<main.cpp>
+HEIGHT_WINDOW #<main.cpp>
+KEY_EXIT #<main.cpp>
+LengthOfTrace : int #<main.cpp>
+MAXN #<main.cpp>
+NAME_SIZE #<main.cpp>
+N_BUTTONS #<main.cpp>
+N_chips : int #<main.cpp>
+N_players : int #<main.cpp>
+N_rounds : int #<main.cpp>
+Team _type_ #<main.cpp>
+WIDTH_WINDOW #<main.cpp>
+_USE_MATH_DEFINES #<main.cpp>
+big : int #<main.cpp>
+buttons : Button[] #<main.cpp>
+cost : int #<main.cpp>
+first : int #<main.cpp>
+image_about : IMAGE* #<main.cpp>
+image_menu : IMAGE* #<main.cpp>
+last : int #<main.cpp>
+list_teams : Team[] #<main.cpp>
+size : double #<main.cpp>
+small : int #<main.cpp>
+state : int #<main.cpp>
+xd : double #<main.cpp>
+y1 _type_ #<main.cpp>
+yd : double #<main.cpp>
+	Button::left : int #<main.cpp>
+	Button::top : int #<main.cpp>
+	Button::width : int #<main.cpp>
+	Button::height : int #<main.cpp>
+	Button::image : IMAGE* #<main.cpp>
+	Chip::Num : int #<main.cpp>
+	Chip::i : int #<main.cpp>
+	Chip::j : int #<main.cpp>
+	Chip::DoneTurn : int #<main.cpp>
+	Chip::path : int #<main.cpp>
+	Chip::CurrTurnMin : int #<main.cpp>
+	Chip::CurrTurnMax : int #<main.cpp>
+	Chip::DoneRound : int #<main.cpp>
+	Chip::place : int #<main.cpp>
+	Chip::flag : int #<main.cpp>
+	Chip::BonusFlag : int #<main.cpp>
+	Team::name : char[] #<main.cpp>
+	Team::r : int #<main.cpp>
+	Team::g : int #<main.cpp>
+	Team::b : int #<main.cpp>
+	Team::image : IMAGE* #<main.cpp>
+	Team::BonusTurns : int #<main.cpp>
+	Team::score : int #<main.cpp>

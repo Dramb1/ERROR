@@ -1,0 +1,6 @@
+Лосяша    224 160 0 losyash.bmp
+Нюши      224 128 128 nusha.bmp
+Каркарыча 0 96 192 karkarich.bmp
+Кроша     96 192 192 krosh.bmp
+Ёжика     96 64 128 yojik.bmp
+Копатыча  224 96 64 kopatich.bmp
