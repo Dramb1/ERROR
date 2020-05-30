@@ -366,7 +366,7 @@ void game(Chip * list_chips)
    }
    DestroyTrace(trace);
    Result(list_chips);
-   close();
+   return;
 }
 void SetSquareTile(int x, int y, int i, int j, Trace** trace)//квадратные клетки
 {
@@ -1027,15 +1027,15 @@ void Result(Chip* list_chips) // вывод результатов
       outtextxy(x+50, y+3, c);
       y+=size*1.5;
    } 
-   
+   delay(100);
    //кнопка выхода в главное меню
-   putimage(buttons[2].left, buttons[2].top, buttons[2].image, COPY_PUT);
+   putimage(buttons[4].left, buttons[4].top, buttons[4].image, COPY_PUT);
    int i = -1;
    while (i < 0)
    {
       while (mousebuttons() != 1);
       i = select(mousex(), mousey()); 
-      if (i == 2) {menu(); break;}
+      if (i == 4) {return;}
          else i = -1;
    }
 }
